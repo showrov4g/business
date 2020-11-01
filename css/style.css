@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,400;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.clear{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header-top{
+    background: #e5eef0;
+}
+.header-top:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header-top .float-left h4{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #93a1a7;
+    font-size: 15px;
+}
+.header-top .float-right a{
+    color: #93a1a7;
+    font-size: 15px;
+} 
+.header-top .float-right #br{
+    border-right: 1px solid #93a1a7;
+}
+/* header-top area design finish here */
+/* header-bottom area design start from here */
+.header-bottom::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header-bottom nav ul li a{
+    font-family: 'Karla', sans-serif ;
+    text-transform: uppercase;
+}
+.header-bottom nav ul .btn{
+    border-radius: 50px;
+}
+/* header area design finish here */
+/* slider area design start from here */
+.slider .carousel-inner #slide_1{
+    background: url(../img/startup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slider .carousel-inner #slide_2{
+    background: url(../img/startup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slider .carousel-inner #slide_3{
+    background: url(../img/startup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slider .carousel-inner .carousel-item{
+    padding-top:208px;
+    padding-bottom: 208px;
+}
+.slider .carousel-inner .carousel-item h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.slider .carousel-inner .carousel-item p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/* slider area desing finish here */
+
+/* startup area desing start from here */
+.startup #start h1{
+    color: #23282f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+.startup{
+    margin-top:100px;
+}
+.startup #start h4{
+    color: #23282f;
+    font-family: 'Karla', sans-serif ;
+    font-weight: 400;
+}
+.startup #start P{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #55595f;
+}
+.startup .img{
+    width: 500px;
+    height: 330px;    
+}
+.startup .img img{
+    width: 100%;
+}
+.startup #business .img{
+    width: 60px;
+    height: 60px;
+    background: #e5eef0;
+    position: relative;
+    margin-top: 10px;
+}
+.startup #business .img:hover{
+    background: #f7941d;
+}
+.startup #business .img img{
+    width: 45%;
+    margin: auto;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    right: 0%;
+}
+.startup #business .text{
+    width: 76%;
+}
+.startup #business .text h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #23282f;
+    margin: 0;
+}
+.startup #business .text p{
+    font-family: 'Open Sans', sans-serif;
+    color: #55595f;
+    font-size: 16px;
+}
+.startup #business .text button{
+    border-radius: 50px;
+}
+/* startup area desgin finish here */
+/* client area design start from */
+.client-area{
+    background: #e5eef0;
+}
+.client-area .client h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #23282f;
+}
+.client-area .client h4{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.client-area .client .client-item i{
+    font-size: 60px;
+    color: #23282f;
+    margin-top: 35px;
+}
+.client-area .client .client-item .text{
+    width: 84%;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+.client-area .client .client-item .text p{
+    padding:0;
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+}
+.client-area .client .client-item .text h3{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+.client-area .client-img .client-images{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.client-area .client-img .client-images img{
+    width: 100%;
+    border-radius: 50%;
+}
+/* client area design finish here */
+/* feature area design start from here */
+.Features .feature-top h1{
+    color: #23282f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+.Features .feature-top p{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    color: #23282f;
+    font-size: 18px;
+}
+.Features .feature-item .img:hover{
+    background: #f7941d;
+}
+.Features .feature-item .img{
+    width: 65px;
+    height: 65px;
+    background: #e5eef0;
+    position: relative;
+}
+.Features .feature-item .img img{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.Features .feature-item .text {
+    width: 73%;
+}
+.Features .feature-item .text h3{
+    color: #23282f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.Features .feature-item .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.Features .button button{
+    border-radius: 50px;
+}
+.Features .trangail {
+    position: relative;
+}
+.Features .trangail hr{
+    position: absolute;
+    bottom: 0;
+}
+.Features .trangail_1{
+    width: 105px;
+    height: 100px;
+    background: #f69b37;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    right: 0%;
+    top: 30%;
+}
+.Features .trangail_2{
+    width: 105px;
+    height: 75px;
+    background: #29c2e1;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    right: 8%;
+    bottom: -100px;
+}
+.Features hr{
+    margin-top: 100px;
+}
+/* Features area design end from here */
+/* pricing area design start from here */
+.pricing .price_top h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #23282f;
+    font-size: 35px;
+}
+.pricing .price_top h4{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.pricing .price{
+    transition-duration: 0.5s;
+}
+.pricing .price h1{
+    color: #23282f;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.pricing .price h2{
+    color: #23282f;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.pricing .price h3{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.pricing .price .price_middle{
+    height: 200px;
+}
+.pricing .price .price_middle h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.pricing .price button{
+    border-radius: 50px;
+    padding: 7px 20px;
+    margin-bottom: 35px;
+}
+.pricing .price:hover{
+    box-shadow: 0px 0px 20px#888888;
+}
+/* price area design finish here */
+
+/* team area design start from here */
+.team-area {
+    background: #e5eef0;
+}
+.team-area h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #23282f;
+    font-size: 35px;
+}
+.team-area .card .card-body a{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.team-area .card .card-title{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.team-area .card .card-body ul li a{
+    color: #adbdc1;
+}
+/* team area desing finish here */
+/* footer area design start from here */
+footer{
+    position: relative;
+}
+footer .footer-top h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #23282f;
+}
+footer .footer-top p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #59686c;
+    font-size: 13px;
+}
+footer .footer-top .btn-primary{
+    background: #29c2e1;
+    border-radius: 50px;
+    
+}
+footer .footer-top .btn-warning{
+    background: #f69b37;
+    border-radius: 50px;;
+}
+.footer-middel h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.footer-middel ul li{
+    display: inline;
+}
+.footer-middel ul li a{
+    text-decoration: none;
+    color: #93a1a7;
+    text-transform: capitalize;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+.footer-middel .contact h4{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #3e4146;
+}
+.footer-middel .contact h4 span{
+    color: #93a1a7;
+}
+.footer-middel .news h4{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #93a1a7;
+}
+.input-group span{
+    color: #fff;
+}
+.footer-middel::after{
+    content:'';
+    display: block;
+    clear: both;
+    width: 300px;
+    height: 280px;
+    background: #f69b37;
+    clip-path: polygon(0 26%, 0% 100%, 100% 100%);
+    position: absolute;
+    left:0;
+    top: 34.5%;
+}
+.footer-bottom::after{
+    content:'';
+    display: block;
+    clear: both;
+    width: 300px;
+    height: 280px;
+    background:#29c2e1;
+    clip-path: polygon(100% 33%, 0% 100%, 100% 100%);
+    position: absolute;
+    right:0;
+    top: 49%;
+}
